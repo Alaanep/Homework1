@@ -1,0 +1,260 @@
+
+/**********************************
+GENERAL
+***********************************/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+   max-width: 100%;   
+}
+
+h3 {
+  margin: 0 0 1em 0;   
+}
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding:  5px  0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;   
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+#footer {
+  top: 800px;
+}
+
+/**********************************
+INDEX
+***********************************/
+
+
+#hero{
+  background-image:url("../pildid/laptop.jpg");
+  background-size:cover;
+  position:relative;
+  height:100vh; /* Viewport Height*/
+}
+
+#header{
+  position:absolute;
+  top:115%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);  
+} 
+
+
+
+/**********************************
+PORTFOLIO, KOGEMUS
+***********************************/
+
+#PORTFOLIO {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#PORTFOLIO li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#PORTFOLIO li a p {
+  margin:  0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7; 
+}
+
+/**********************************
+PORTFOLIO, KOGEMUS
+***********************************/
+
+table {
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+table th, td{
+  box-shadow: inset 0 -1px rgba(0,0,0,0.25),  inset 0 1px rgba(0,0,0,0.25);
+}
+
+table th{
+    padding: 1em;
+    color: #5d5b59;;
+    font-size: 1.5em;
+    background: #F4F3EE;
+}
+
+table td {
+    color: #5d5b59;
+    padding: 0.7em 1em 0.7em 1.15em;
+    font-size: 1.4em;
+}
+
+
+/**********************************
+KONTAKT
+***********************************/
+
+
+.contact-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a{
+  display: block;
+  min-height: 10px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+    background-image: url('../pildid/phone.png');
+}
+
+.contact-info li.mail a{
+    background-image: url('../pildid/mail.png');
+}
+
+.contact-info li.twitter a{
+    background-image: url('../pildid/twitter.png');
+}
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* header */
+header {
+  background: #F4F3EE; 
+  /*background: #F3FAB6; */
+  border-color: #599a68;
+
+}
+
+/* nav background */
+nav {
+  background: #F6F4DA;
+}
+
+/* logo text */
+h1, h2 {
+  color: #5d5b59;
+}
+
+/* links */
+a {
+  color: #5d5b59;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #5d5b59;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #727B84;
+}
